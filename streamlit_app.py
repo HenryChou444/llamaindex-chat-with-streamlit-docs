@@ -27,7 +27,7 @@ if "messages" not in st.session_state.keys():  # Initialize the chat messages hi
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Bonjour, je suis l'assistant Hey, posez-moi toutes les questions concernant,...!",
+            "content": "Hey 👋! Need a hand? I'm here to make your life easier in just a few seconds. Ask me your question and get instant, clear, and precise answers. Let’s give it a try! 🚀",
         }
     ]
 
@@ -88,12 +88,16 @@ if prompt := st.chat_input(
     st.session_state.messages.append({"role": "user", "content": prompt})
 
 for message in st.session_state.messages:  # Write message history to UI
-    with st.chat_message(message["role"]):
-        st.write(message["content"])
+    if message["role"] == "assistant":
+        with st.chat_message(message["role"], avatar="./image/Logo_Casque_Hey.png"):  # Custom image for assistant
+            st.write(message["content"])
+    else:
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
 
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar="./image/Logo_Casque_Hey.png"):
         response_stream = st.session_state.chat_engine.stream_chat(prompt)
         st.write_stream(response_stream.response_gen)
         message = {"role": "assistant", "content": response_stream.response}
