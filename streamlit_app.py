@@ -35,7 +35,7 @@ if "messages" not in st.session_state.keys():  # Initialize the chat messages hi
 @st.cache_resource(show_spinner=False)
 def load_data():
     Settings.llm = OpenAI(
-        model="gpt-3.5-turbo",
+        model="gpt-4o", #3.5 est meilleur
         temperature=0.2,
         system_prompt=
         """
