@@ -1,0 +1,204 @@
+{
+    "FAQ": {
+        "Internet": {
+            "vitesse_telechargement": {
+                "description": "Selon le réseau disponible dans ta région, la vitesse de connexion peut atteindre jusqu'à 200 Mbps.",
+                "conditions": "Dépend des conditions d’utilisation (heure, trafic, nombre de clients connectés, conditions du réseau...)."
+            },
+            "Mbps_signification": "C’est l’unité de mesure qui spécifie la bande passante et le débit du réseau.",
+            "vitesse_necessaire": {
+                "20_Mbps": "Débit minimal pour un usage de base avec plusieurs appareils.",
+                "80_100_Mbps": "Débit suffisant pour plusieurs télévisions et streaming.",
+                "200_Mbps": "Débit optimal pour télétravail et divertissements sans interruption."
+            },
+            "Easy_Switch_ID": {
+                "retrouver_ID": "Disponible sur ta facture, dans l’espace client ou l’app mobile.",
+                "importants_points": [
+                    "Préavis possible avec ton ancien opérateur.",
+                    "Indemnité de rupture potentielle.",
+                    "Restitution des équipements peut être requise."
+                ]
+            }
+        },
+        "Utilisation_Modem": {
+            "utiliser_son_propre_modem": {
+                "possible": "Oui, en remplissant un formulaire avec les informations du modem.",
+                "limitations": [
+                    "Hey! ne garantit pas la qualité de service avec un modem personnel.",
+                    "Mises à jour logicielles doivent être effectuées par l’utilisateur.",
+                    "En cas de problème, diagnostic nécessite le modem Hey!"
+                ]
+            }
+        },
+        "Activation_Carte_SIM": {
+            "procedure": [
+                "Carte envoyée par la poste avec une lettre de bienvenue.",
+                "Activer la carte SIM via le site Hey! en renseignant le numéro SIM et l'email associé.",
+                "Vérifier les informations et confirmer.",
+                "L’activation commence et un mail de confirmation est envoyé.",
+                "Si transfert de numéro, activation possible en 24h maximum."
+            ]
+        },
+        "Suspension_Abonnement": {
+            "description": "Tu peux suspendre temporairement ton abonnement pour une durée maximale de 3 mois.",
+            "procedure": "Contacte le support chat pour effectuer la demande."
+        },
+        "Resiliation_Abonnement": {
+            "options": [
+                {
+                    "type": "Suppression complète",
+                    "procedure": "Compléter le formulaire de résiliation. Une fois supprimé, le numéro ne pourra plus être récupéré."
+                },
+                {
+                    "type": "Transfert vers un autre opérateur",
+                    "procedure": "Contacter le nouvel opérateur et fournir le numéro de téléphone, le code client Hey! et le numéro de la carte SIM."
+                },
+                {
+                    "type": "Suspension temporaire",
+                    "procedure": "Contacte le support Hey! via le chat (limite de 3 mois)."
+                },
+                {
+                    "type": "Passage en prépayé",
+                    "disponibilite": "Non possible, Hey! ne propose pas de formule prépayée."
+                }
+            ]
+        },
+        "Roaming_vs_International": {
+            "roaming": "Utilisation du réseau mobile à l’étranger.",
+            "international": "Appels/SMS depuis la Belgique vers l’étranger.",
+            "tarifs": "Dépendent des zones couvertes.",
+            "roaming_conditions": {
+                "usage_en_UE": "Dans les pays de l’Union Européenne et en Grande Bretagne, appels, SMS et data sont inclus comme en Belgique.",
+                "exceptions": "La Suisse, Andorre et Monaco ne font pas partie de l’Union Européenne.",
+                "hors_UE": "Un tarif spécifique s'applique hors UE.",
+                "clients_80GB": {
+                    "volume_UE": "Maximum 25 GB inclus en UE.",
+                    "tarif_supplementaire": "0,002178 €/MB après consommation du quota, jusqu'à 60 € hors abonnement."
+                }
+            },
+            "informations_utiles": [
+                "Numéros locaux d’urgence à appeler à l’étranger.",
+                "Numéros spéciaux et courts.",
+                "Applications d’alertes au public utilisables localement."
+            ]
+        },
+        "My_Hey": {
+            "description": "Espace personnel permettant de gérer ton abonnement.",
+            "fonctions_disponibles": [
+                "Consultation de la consommation.",
+                "Accès aux factures et paiement en ligne.",
+                "Récupération du code PUK.",
+                "Modification du plan tarifaire.",
+                "Mise à jour des données personnelles."
+            ],
+            "connexion": {
+                "etapes": [
+                    "Cliquer sur 'Pas encore de compte'.",
+                    "Saisir ton numéro de téléphone et ton adresse email.",
+                    "Une fois inscrit, connexion via email ou numéro Hey!."
+                ]
+            }
+        },
+        "Facturation": {
+            "premiere_facture": {
+                "description": "La première facture est plus élevée car le forfait est payé un mois à l'avance.",
+                "exemple": "Si l'abonnement commence le 10 mai et la facturation le 15 mai, les jours du 10 au 14 mai sont offerts, mais la facture inclut la période du 15 mai au 14 juin."
+            },
+            "changement_tarifaire": {
+                "explication": "Le changement de plan tarifaire peut entraîner une facture plus élevée car le nouveau forfait est facturé immédiatement.",
+                "credit": "Un crédit est appliqué pour les jours non utilisés de l'ancien abonnement."
+            },
+            "frais_hors_forfait": {
+                "description": "Les frais hors forfait sont ceux non inclus dans l'abonnement et facturés en supplément.",
+                "exemples": [
+                    "Appels et data au-delà du forfait.",
+                    "Utilisation hors UE.",
+                    "Appels vers numéros spéciaux (0900, 0909).",
+                    "Achats multimédia (SMS de stationnement, tickets de bus, etc.)."
+                ]
+            },
+            "rappels_paiement": {
+                "etapes": [
+                    {
+                        "niveau": "1er rappel",
+                        "cout": "Gratuit",
+                        "mode": "SMS, e-mail ou lettre."
+                    },
+                    {
+                        "niveau": "2e rappel",
+                        "cout": "10 €",
+                        "mode": "E-mail ou lettre."
+                    },
+                    {
+                        "niveau": "3e rappel",
+                        "cout": "10 €",
+                        "mode": "SMS, e-mail ou lettre."
+                    },
+                    {
+                        "niveau": "4e rappel (mise en demeure)",
+                        "cout": "Gratuit",
+                        "mode": "E-mail ou lettre."
+                    }
+                ]
+            },
+            "remboursement": {
+                "condition": "Si l'abonnement est résilié avant la fin du cycle de facturation, les frais payés à l'avance sont crédités.",
+                "procedure": "Faire la demande via le webchat."
+            }
+        },
+        "SMS_et_Numeros_Premium": {
+            "description": "Les SMS Premium sont des SMS payants pour des services comme les jeux, tickets de bus, votes, etc.",
+            "facturation": "Tu peux être facturé à l'envoi et à la réception des SMS provenant de numéros courts (4 chiffres).",
+            "numeros_premium": "Les numéros 070 ou 090X sont gérés par des fournisseurs de services et facturés selon un tarif spécifique.",
+            "restrictions": "Les numéros 070, 077, 078 et les numéros courts 1xxx ne peuvent pas être bloqués via Hey!."
+        },
+        "Gestion_Consommation": {
+            "changer_tarif": {
+                "description": "Tu peux modifier ton tarif gratuitement 1 fois par mois.",
+                "procedure": [
+                    "Se connecter à My hey!.",
+                    "Sélectionner 'Mes produits'.",
+                    "Choisir 'Changer mon plan tarifaire' et confirmer."
+                ],
+                "facturation": "Un calcul au prorata sera effectué sur la prochaine facture."
+            },
+            "gestion_data": {
+                "data_bloquee": "Si ton hors forfait dépasse 50 €, l'accès internet est bloqué pour éviter une facture trop élevée.",
+                "solution": "Attendre le prochain cycle de facturation ou changer de tarif via My hey!."
+            },
+            "verification_conso": {
+                "options": "Tu peux vérifier ta consommation d'appels, SMS et data via My hey! à tout moment.",
+                "blocage_data": "Une fois 50 € de data hors forfait atteints, l’accès internet est bloqué."
+            }
+        },
+        "Gestion_Numero": {
+            "retrouver_nouveau_numero": {
+                "options": [
+                    "Vérifier le mail de bienvenue.",
+                    "Appeler un ami et voir le numéro affiché sur son GSM.",
+                    "Utiliser les codes USSD #2#, #3# ou #4#."
+                ]
+            },
+            "transfert_contrat": {
+                "description": "Le changement de titulaire du contrat nécessite un formulaire et une copie de la carte d'identité.",
+                "conditions": [
+                    "Accord entre l'ancien et le nouveau titulaire.",
+                    "Le repreneur recommencera à zéro pour l’avantage 'data boost'."
+                ]
+            }
+        },
+        "Achat_Multimedia": {
+            "restriction": "Les achats multimédia (jeux, Google Play, etc.) sont bloqués à l’activation de l’abonnement pour éviter les frais imprévus."
+        },
+        "Changement_Numero": {
+            "procedure": "Contacte le support chat pour faire la demande.",
+            "conditions": [
+                "Service gratuit.",
+                "Le numéro est activé sur la carte SIM actuelle.",
+                "Aucun impact sur l’abonnement.",
+                "Le choix du numéro n’est pas possible."
+            ]
+        }
+        
+    }
+}

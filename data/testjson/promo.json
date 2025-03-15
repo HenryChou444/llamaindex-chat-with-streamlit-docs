@@ -1,0 +1,77 @@
+{
+    "offres_mobiles": [
+      {
+        "nom": "Hey! Mobile S",
+        "data": "15 GB (Belgique et UE)",
+        "appels": "Illimités",
+        "sms": "Illimités",
+        "prix": "5 €/mois",
+        "engagement": "Sans engagement",
+        "reseau": "4G/5G",
+        "tarifs_hors_abonnement": "0,01 €/MB en Belgique et UE, blocage à 50 €",
+        "roaming": "15 GB en UE inclus, puis 0,01 €/MB"
+      },
+      {
+        "nom": "Hey! Mobile M",
+        "data": "25 GB (Belgique et UE)",
+        "appels": "Illimités",
+        "sms": "Illimités",
+        "prix": "9 €/mois",
+        "engagement": "Sans engagement",
+        "reseau": "4G/5G",
+        "tarifs_hors_abonnement": "0,01 €/MB en Belgique et UE, blocage à 50 €",
+        "roaming": "25 GB en UE inclus, puis 0,01 €/MB"
+      },
+      {
+        "nom": "Hey! Mobile L",
+        "data": "80 GB (Belgique, dont 20 GB en UE)",
+        "appels": "Illimités",
+        "sms": "Illimités",
+        "prix": "14 €/mois",
+        "engagement": "Sans engagement",
+        "reseau": "4G/5G",
+        "tarifs_hors_abonnement": "0,01 €/MB en Belgique et 0,001573 €/MB en UE",
+        "roaming": "Promotion : 30 GB supplémentaires (16/12/24 - 30/04/25)",
+        "promotions": [
+          {
+            "nom": "Promo 10 % à vie",
+            "description": "Ton abonnement mobile avec 80 GB pour : 12,6 €/mois",
+            "details": "Tu bénéficies désormais d'une promotion de 10% par mois sur tes abonnements éligibles pendant toute la durée de ton contrat. Cette réduction reste valable tant que l'abonnement mobile reste actif.",
+            "validite": "10/12/24 - 30/04/25"
+          },
+          {
+            "nom": "30 GB extra à vie",
+            "description": "Ton abonnement mobile avec 80 GB pour : 12,6 €/mois",
+            "details": "Grâce à cette promo, tu bénéficies de 30 GB supplémentaires sur ton abonnement hey! mobile L, pendant toute la durée de ton contrat. Cette réduction reste valable tant que l'abonnement mobile reste actif.",
+            "validite": "10/12/24 - 30/04/25"
+          }
+        ]
+      },
+      {
+        "nom": "Hey! Mobile XL",
+        "data": "200 GB (Belgique, dont 35 GB en UE)",
+        "appels": "Illimités",
+        "sms": "Illimités",
+        "prix": "25 €/mois",
+        "engagement": "Sans engagement",
+        "reseau": "4G/5G",
+        "tarifs_hors_abonnement": "0,01 €/MB en Belgique et 0,001573 €/MB en UE",
+        "roaming": "Promotion : 40 GB supplémentaires (16/12/24 - 30/04/25)",
+        "promotions": [
+          {
+            "nom": "Promo 10 % à vie",
+            "description": "Ton abonnement mobile avec 200 GB pour : 22,5 €/mois",
+            "details": "Tu bénéficies désormais d'une promotion de 10% par mois sur tes abonnements éligibles pendant toute la durée de ton contrat. Cette réduction reste valable tant que l'abonnement mobile reste actif.",
+            "validite": "10/12/24 - 30/04/25"
+          },
+          {
+            "nom": "40 GB extra",
+            "description": "Ton abonnement mobile avec 200 GB pour : 22,5 €/mois",
+            "details": "Grâce à cette promo, tu bénéficies de 40 GB supplémentaires sur ton abonnement hey! mobile XL, pendant toute la durée de ton contrat. Cette réduction reste valable tant que l'abonnement mobile reste actif.",
+            "validite": "10/12/24 - 30/04/25"
+          }
+        ]
+      }
+    ]
+  }
+  
