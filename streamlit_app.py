@@ -35,7 +35,7 @@ if "messages" not in st.session_state.keys():  # Initialize the chat messages hi
 @st.cache_resource(show_spinner=False)
 def load_data():
     Settings.llm = OpenAI(
-        model="gpt-4-turbo",
+        model="gpt-3.5-turbo",
         temperature=0.2,
         system_prompt=
         """
@@ -79,7 +79,7 @@ index = load_data()
 
 if "chat_engine" not in st.session_state.keys():  # Initialize the chat engine
     st.session_state.chat_engine = index.as_chat_engine(
-        chat_mode="condense_question", verbose=True, streaming=True
+        chat_mode = "condense_question", verbose=True, streaming=True
     )
 
 if prompt := st.chat_input(
