@@ -12,18 +12,6 @@ openai.api_key = st.secrets.openai_key
 st.title("Hey Chatbot 💬")
 # st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
 
-# CSS pour changer le fond en bleu
-st.markdown(
-    """
-    <style>
-        /* Changer le fond de la page en bleu */
-        [data-testid="stAppViewContainer"] {
-            background-color: #ADD8E6; /* Bleu clair */
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
